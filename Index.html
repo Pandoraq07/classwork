@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>MY FIRST PROJECT FORM</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <a href="https://adventistreview.org" target="_blank">Visit adventistreview</a>
+    <div class="container">
+        <div class="box-1">
+            <h1>WELCOME TO THE SDA CHURCH WORLDWIDE</h1>
+            <h2>ABOUT THE SDA CHURCH</h2>
+            <p>
+                The SDA Church, or 
+                <a href="http://google.com" target="_blank">Seventh-day Adventist Church</a>, 
+                is a Protestant Christian denomination known for its observance of Saturday as the Sabbath, 
+                and for its emphasis on the Second Coming of Jesus Christ.
+            </p>
+        </div>
+
+
+        <div class="box-2">
+            <h3>ORIGIN</h3>
+            <p>
+                It was founded in 1863 in the United States. It grew out of the Millerite movement of the 1840s, 
+                which predicted the Second Coming of Christ. Key figures include:
+            </p>
+            <ul>
+                <li>WILLIAM MILLER (PREDECESSOR)</li>
+                <li>ELLEN G. WHITE (PROPHETESS, CO-FOUNDER)</li>
+            </ul>
+        </div>
+
+        
+        <div class="box-3">
+            <h4>CORE BELIEFS</h4>
+            <p>
+                The church believes in the Bible and is therefore a Bible-based church. It also believes in 
+                health laws and healthy living principles, the state of the dead, the sanctuary doctrine, 
+                and most importantly, the second coming of Jesus Christ.
+            </p>
+
+            <h5>GLOBAL PRESENCE</h5>
+            <ul>
+                <li>Membership: Over 22 million members worldwide.</li>
+                <li>Institutions: Thousands of schools, hospitals, and publishing houses.</li>
+                <li>Missions: Present in over 200 countries.</li>
+            </ul>
+            <p>You are welcome to the Adventist Family Worldwide. Kindly fill the form below:</p>
+        </div>
+
+        <form class="my-form" action="process.php" method="post">
+            <div class="form-group">
+                <label for="title">Title</label>
+                <select name="title" id="title">
+                    <option value="MR">MR</option>
+                    <option value="MRS">MRS</option>
+                    <option value="Dr">Dr</option>
+                    <option value="Chief">Chief</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="firstname">FIRST NAME</label>
+                <input type="text" name="firstname" id="firstname" placeholder="Enter First Name">
+            </div>
+
+            <div class="form-group">
+                <label for="middlename">MIDDLE NAME</label>
+                <input type="text" name="middlename" id="middlename" placeholder="Enter Middle Name">
+            </div>
+
+            <div class="form-group">
+                <label for="lastname">LAST NAME</label>
+                <input type="text" name="lastname" id="lastname" placeholder="Enter Last Name">
+            </div>
+
+            <div class="form-group">
+                <label for="gender">Gender</label>
+                <select name="gender" id="gender">
+                    <option value="Male">Male</option>
+                    <option value="Female">Female</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="birthday">Date of Birth</label>
+                <input type="date" name="birthday" id="birthday">
+            </div>
+
+            <div class="form-group">
+                <label for="age">Age</label>
+                <input type="number" name="age" id="age" value="25">
+            </div>
+
+            <div class="form-group">
+                <label for="email">EMAIL</label>
+                <input type="text" name="email" id="email" placeholder="Enter your Email">
+            </div>
+
+            <div class="form-group">
+                <label for="message">MESSAGE</label>
+                <textarea name="message" id="message" placeholder="Type your message here"></textarea>
+            </div>
+
+            <input type="submit" name="submit" value="Submit">
+
+            <blockquote cite="http://RichardOba.com">
+                <em>The Advent message to all the world in my generation</em>
+            </blockquote>
+        </form>
+    </div>
+</body>
+</html>

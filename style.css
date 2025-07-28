@@ -1,0 +1,51 @@
+{
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+}
+Body{
+    background-color: white;
+    font-style: times new roman;
+    font-size: 14px;
+    line-height: 1.6em;
+    padding: 30px;
+}
+.container{
+   width: 800px;
+    margin: auto;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px aqua;
+}
+.h1, h2, h3, h4, h5{
+    color: black;
+    margin-bottom: 10px;
+}
+.box-1 h1{
+    text-align: center;
+}
+.p ul, li{
+    margin: 15px;
+    font-size: 15px;
+}
+.form-group label{
+    display: block;
+    margin: 10px 5px;
+}
+.form-group textarea{
+    width:auto;
+    border:1px solid;
+    border-radius: 3px;
+    box-shadow: 0 0 5px red;
+    resize: vertical;
+    height: 100px;
+}
+.form-group submit{
+    color: white;
+    padding: 20px;
+    border: 5px;
+    cursor: pointer;
+}
+.input type="submit": :hover{
+    background-color: #059
+}
