@@ -1,9 +1,4 @@
-{
-    margin:0px;
-    padding:0px;
-    box-sizing:border-box;
-}
-Body{
+body{
     background-color: white;
     font-style: times new roman;
     font-size: 14px;
@@ -25,7 +20,7 @@ Body{
     text-align: center;
 }
 .p ul, li{
-    margin: 15px;
+    margin: 20px;
     font-size: 15px;
 }
 .form-group label{
@@ -33,19 +28,20 @@ Body{
     margin: 10px 5px;
 }
 .form-group textarea{
-    width:auto;
+    width: 400px;;
     border:1px solid;
     border-radius: 3px;
     box-shadow: 0 0 5px red;
     resize: vertical;
-    height: 100px;
+    height: 200px;
+    padding: 10px;
 }
 .form-group submit{
     color: white;
     padding: 20px;
-    border: 5px;
+    border: 10px;
     cursor: pointer;
 }
-.input type="submit": :hover{
+.input [type="submit"]:hover{
     background-color: #059
 }
