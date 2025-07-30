@@ -20,7 +20,7 @@ body{
     text-align: center;
 }
 .p ul, li{
-    margin: 15px;
+    margin: 20px;
     font-size: 15px;
 }
 .form-group label{
@@ -39,7 +39,7 @@ body{
 .form-group submit{
     color: white;
     padding: 20px;
-    border: 5px;
+    border: 10px;
     cursor: pointer;
 }
 .input [type="submit"]:hover{
