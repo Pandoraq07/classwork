@@ -1,25 +1,27 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>MY FIRST PROJECT FORM</title>
+    <title>SDA CHURCH</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <a href="https://adventistreview.org" target="_blank">Visit adventistreview</a>
-    <a href="https://google.com" target="_blank">visit google</a>
+    <nav class="top-links">
+        <a href="amo.html" style="float: left; margin-right: 20px;" target="_blank">Visit Adventist Men Organisation</a>
+        <a href="awm.html" style="float: left; margin-right: 20px;" target="_blank">Visit Adventist Women Organisation</a>
+        <a href="https://adventistreview.org" target="_blank">Visit Adventistreview</a>
+    </nav>
     <div class="container">
         <div class="box-1">
             <h1>WELCOME TO THE SDA CHURCH WORLDWIDE</h1>
             <h2>ABOUT THE SDA CHURCH</h2>
             <p>
                 The SDA Church, or 
-                <a href="http://google.com" target="_blank">Seventh-day Adventist Church</a>, 
+                <a href="https://adventist.org/beliefs" target="_blank">Seventh-day Adventist Church</a>, 
                 is a Protestant Christian denomination known for its observance of Saturday as the Sabbath, 
                 and for its emphasis on the Second Coming of Jesus Christ.
             </p>
         </div>
-
-
+        <hr>
         <div class="box-2">
             <h3>ORIGIN</h3>
             <p>
@@ -27,12 +29,13 @@
                 which predicted the Second Coming of Christ. Key figures include:
             </p>
             <ul>
-                <li>WILLIAM MILLER (PREDECESSOR)</li>
+                <li>WILLIAM MILLER (PREDECESSOR)</li> 
+                <img src="images/miller_william.jpg" width="200px" height="150">
                 <li>ELLEN G. WHITE (PROPHETESS, CO-FOUNDER)</li>
+                <img src="images/ellen.jpg" width="200px" height="150">
             </ul>
         </div>
-
-        
+        <hr>
         <div class="box-3">
             <h4>CORE BELIEFS</h4>
             <p>
@@ -40,7 +43,7 @@
                 health laws and healthy living principles, the state of the dead, the sanctuary doctrine, 
                 and most importantly, the second coming of Jesus Christ.
             </p>
-
+            <hr>
             <h5>GLOBAL PRESENCE</h5>
             <ul>
                 <li>Membership: Over 22 million members worldwide.</li>
@@ -49,7 +52,7 @@
             </ul>
             <p>You are welcome to the Adventist Family Worldwide. Kindly fill the form below:</p>
         </div>
-
+        <hr>
         <form class="my-form" action="process.php" method="post">
             <div class="form-group">
                 <label for="title">Title</label>
@@ -103,12 +106,10 @@
                 <label for="message">MESSAGE</label>
                 <textarea name="message" id="message" placeholder="Type your message here"></textarea>
             </div>
-
             <input type="submit" name="submit" value="Submit">
-
-            <blockquote cite="http://RichardOba.com">
-                <em>The Advent message to all the world in my generation</em>
-            </blockquote>
+            <div class="side-block">
+                <P>"Go therefore into the world and make disciples of all nations, baptising them in the name of the Father, the Son and the Holy Spirit".</P> <span class="bible-ref">Matthew 28:19-20</span>
+            </div>
         </form>
     </div>
 </body>
