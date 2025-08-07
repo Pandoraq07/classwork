@@ -47,33 +47,18 @@ p {
     cursor: pointer;
     background-color: black;
 }
-.form-group input[type="submit"]:hover{
-    background-color: red
+.form-group input[type="submit"]a:hover {
+    background-color: red;
 }
 .form-group blockquote{
     text-align: center;
 }
-.nav-links{
-    background-color: black;
+.top-links{
+    background-color: white;
+    float: right;
     padding: 10px 0;
-    margin top: 10px;
-    display: flex;
-    list-style: none;
-    justify-content: center;
+    margin-top: 10px;
     gap:30px;
-}
-.nav-links li {
-    margin: 0 15px;
-}
-.nav-links a {
-    color: white;
-    text-decoration: none;
-    font-weight: bold;
-    font-style: italic;
-    font-size: 15px;
-}
-.nav-links a:hover {
-    color: red;
 }
 .box-1 h1{
     text-align: center;
@@ -84,11 +69,36 @@ p {
     box-shadow: 2px 2px 2px 2px red;
 }
 .side-block {
-    background-color: grey;
+    background-color: crimson;
     margin: 15px 0px;
     padding: 5px;
     font-style: italic;
     float: right;
     width: 30%;
     color: white;
+}
+.top-bar{
+    display: grid;
+    width: 100%;
+    justify-content: end;
+}
+.top-links {
+  background-color: powderblue;
+  padding: 10px 0;
+  margin-top: 10px;
+  display: flex;
+  gap: 30px;
+}
+.block{
+    float: left;
+    width: 33.3%;
+    border: 1px solid #ccc;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-top: 10px;
+}
+.top-bar {
+  display: grid;
+  width: 100%;
+  justify-content: end; /* Aligns child to the right */
 }
